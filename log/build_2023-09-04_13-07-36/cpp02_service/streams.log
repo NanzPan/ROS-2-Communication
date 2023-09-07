@@ -1,0 +1,12 @@
+[0.010s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp02_service': AMENT_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp02_service -- -j12 -l12
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[0.048s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[0.051s] [ 75%] Built target demo01_server
+[0.172s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfaces_demo/srv/addint: No such file or directory
+[0.172s]    21 | #include [01;31m[K"base_interfaces_demo/srv/addint"[m[K
+[0.172s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.172s] compilation terminated.
+[0.174s] gmake[2]: *** [CMakeFiles/demo02_client.dir/build.make:76: CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o] Error 1
+[0.174s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_client.dir/all] Error 2
+[0.175s] gmake: *** [Makefile:146: all] Error 2
+[0.176s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp02_service' returned '2': AMENT_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp02_service -- -j12 -l12

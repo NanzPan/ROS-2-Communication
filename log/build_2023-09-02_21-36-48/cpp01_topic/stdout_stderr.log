@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[ 75%] Built target demo01_talker_str
+[ 75%] Built target demo04_listener_stu
+[ 75%] Built target demo02_listener_str
+[ 87%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In constructor ‘[01m[KTalkerStu::TalkerStu()[m[K’:
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   28 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[0.013s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp01_topic -- -j12 -l12
+[0.027s] [31mCMake Error at CMakeLists.txt:39:
+[0.027s]   Parse error.  Expected a newline, got identifier with text
+[0.027s]   "ament_target_dependencies".
+[0.027s] 
+[0.027s] [0m
+[0.027s] -- Configuring incomplete, errors occurred!
+[0.027s] See also "/home/pz10on/Work/ws01_plumbing/build/cpp01_topic/CMakeFiles/CMakeOutput.log".
+[0.029s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.030s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp01_topic -- -j12 -l12

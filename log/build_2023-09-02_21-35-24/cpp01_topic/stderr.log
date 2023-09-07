@@ -1,0 +1,26 @@
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In constructor ‘[01m[KTalkerStu::TalkerStu()[m[K’:
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   28 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:14[m[K:
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In member function ‘[01m[Kvoid TalkerStu::on_timer()[m[K’:
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:39:95:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kstu.base_interfaces_demo::msg::Student_<std::allocator<void> >::age[m[K’, which is of non-class type ‘[01m[Kbase_interfaces_demo::msg::Student_<std::allocator<void> >::_age_type[m[K’ {aka ‘[01m[Kint[m[K’}
+   39 |         RCLCPP_INFO(this-> get_logger(),"发布的消息：（%s,%d,%.2f）",stu.name.c_str(),stu.age.[01;31m[Kc_str[m[K(),stu.height.c_str());
+      |                                                                                               [01;31m[K^~~~~[m[K
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:39:114:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kstu.base_interfaces_demo::msg::Student_<std::allocator<void> >::height[m[K’, which is of non-class type ‘[01m[Kbase_interfaces_demo::msg::Student_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   39 |         RCLCPP_INFO(this-> get_logger(),"发布的消息：（%s,%d,%.2f）",stu.name.c_str(),stu.age.c_str(),stu.height.[01;31m[Kc_str[m[K());
+      |                                                                                                                  [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

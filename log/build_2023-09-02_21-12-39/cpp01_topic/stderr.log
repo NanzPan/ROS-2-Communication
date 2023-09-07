@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:39:
+  Parse error.  Expected a newline, got identifier with text
+  "ament_target_dependencies".
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[ 75%] Built target demo01_server
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfaces_demo/srv/addint: No such file or directory
+   21 | #include [01;31m[K"base_interfaces_demo/srv/addint"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo02_client.dir/build.make:76: CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

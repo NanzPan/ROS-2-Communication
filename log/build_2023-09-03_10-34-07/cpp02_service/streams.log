@@ -1,0 +1,16 @@
+[0.012s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp02_service -- -j12 -l12
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target demo02_client[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[1.733s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:[m[K In constructor ‘[01m[KAddintClient::AddintClient()[m[K’:
+[1.733s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:20:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.733s]    20 | [01;31m[K}[m[K
+[1.733s]       | [01;31m[K^[m[K
+[2.057s] gmake[2]: *** [CMakeFiles/demo02_client.dir/build.make:76: CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o] Error 1
+[2.058s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_client.dir/all] Error 2
+[2.058s] gmake[1]: *** Waiting for unfinished jobs....
+[2.076s] [ 75%] [32m[1mLinking CXX executable demo01_server[0m
+[2.149s] [ 75%] Built target demo01_server
+[2.150s] gmake: *** [Makefile:146: all] Error 2
+[2.151s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp02_service' returned '2': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp02_service -- -j12 -l12

@@ -1,0 +1,12 @@
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ProgressActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:78:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handdle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   77 |         [01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>>[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   78 | [01;35m[K            goal_handdle[m[K) {
+      |             [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::handle_accept(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:88:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handdle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   87 |         [01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>>[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   88 | [01;35m[K            goal_handdle[m[K) {}
+      |             [01;35m[K^~~~~~~~~~~~[m[K

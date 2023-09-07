@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp02_service -- -j12 -l12
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target demo02_client[0m
+[0.046s] [ 50%] Built target demo01_server
+[0.050s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[1.685s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:[m[K In member function ‘[01m[Krclcpp::Client<base_interfaces_demo::srv::Addint>::SharedFutureWithRequestAndRequestId AddintClient::send_request(int, int)[m[K’:
+[1.685s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:75:47:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Krclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = base_interfaces_demo::srv::Addint; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<base_interfaces_demo::srv::Addint_Request_<std::allocator<void> > >](std::shared_ptr<base_interfaces_demo::srv::Addint_Request_<std::allocator<void> > >(request))[m[K’ from ‘[01m[Krclcpp::Client<base_interfaces_demo::srv::Addint>::FutureAndRequestId[m[K’ to ‘[01m[Krclcpp::Client<base_interfaces_demo::srv::Addint>::SharedFutureWithRequestAndRequestId[m[K’
+[1.685s]    75 |             return [01;31m[Kclient_->async_send_request(request)[m[K;
+[1.685s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[1.685s]       |                                               [01;31m[K|[m[K
+[1.685s]       |                                               [01;31m[Krclcpp::Client<base_interfaces_demo::srv::Addint>::FutureAndRequestId[m[K
+[1.689s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.689s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.689s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.689s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.689s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.689s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.689s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.689s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.689s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.689s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.689s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.689s]                  from [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:20[m[K:
+[1.689s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[1.689s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:106:76:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kstd::pair<std::shared_ptr<base_interfaces_demo::srv::Addint_Request_<std::allocator<void> > >, std::shared_ptr<base_interfaces_demo::srv::Addint_Response_<std::allocator<void> > > >[m[K’
+[1.689s]   106 |         RCLCPP_ERROR(client->get_logger(),"响应成功！sum = %d",future.get()[01;31m[K->[m[Knum3);
+[1.690s]       |                                                                            [01;31m[K^~[m[K
+[2.114s] gmake[2]: *** [CMakeFiles/demo02_client.dir/build.make:76: CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o] Error 1
+[2.114s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_client.dir/all] Error 2
+[2.114s] gmake: *** [Makefile:146: all] Error 2
+[2.116s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp02_service' returned '2': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp02_service -- -j12 -l12

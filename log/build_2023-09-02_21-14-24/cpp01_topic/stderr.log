@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:16 (add_executable):
+  The target name "demo03_talker_stu/demo03_talker_stu.cpp" is reserved or
+  not valid for certain CMake features, such as generator expressions, and
+  may result in undefined behavior.
+
+[0m
+[31mCMake Error at CMakeLists.txt:17 (add_executable):
+  The target name "demo04_listener_stu/demo04_listener_stu.cpp" is reserved
+  or not valid for certain CMake features, such as generator expressions, and
+  may result in undefined behavior.
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+  ament_target_dependencies() the first argument must be a valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

@@ -1,0 +1,14 @@
+[0.012s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp01_topic -- -j12 -l12
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.051s] [ 75%] Built target demo01_talker_str
+[0.051s] [ 75%] Built target demo04_listener_stu
+[0.051s] [ 75%] Built target demo02_listener_str
+[0.053s] [ 87%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[1.690s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In constructor ‘[01m[KTalkerStu::TalkerStu()[m[K’:
+[1.690s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.690s]    28 |     [01;31m[K}[m[K
+[1.690s]       |     [01;31m[K^[m[K
+[2.275s] gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1
+[2.275s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2
+[2.275s] gmake: *** [Makefile:146: all] Error 2
+[2.277s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp01_topic -- -j12 -l12

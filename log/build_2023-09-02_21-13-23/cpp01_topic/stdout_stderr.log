@@ -1,0 +1,8 @@
+[31mCMake Error at CMakeLists.txt:39:
+  Parse error.  Expected a newline, got identifier with text
+  "ament_target_dependencies".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/pz10on/Work/ws01_plumbing/build/cpp01_topic/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

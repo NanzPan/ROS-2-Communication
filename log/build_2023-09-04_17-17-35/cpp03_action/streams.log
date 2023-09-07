@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp03_action -- -j12 -l12
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target demo01_action_server[0m
+[0.053s] [ 50%] Built target demo02_action_client
+[0.057s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[0.207s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:96:42:[m[K [01;31m[Kerror: [m[Kextended character 。 is not valid in an identifier
+[0.207s]    96 |         goal_handdle->publish_feedback() [01;31m[K_[m[K_生成连续反馈的api。
+[0.207s]       |                                          [01;31m[K^[m[K
+[1.934s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[1.934s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:96:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress>::publish_feedback()[m[K’
+[1.934s]    96 |         [01;31m[Kgoal_handdle->publish_feedback()[m[K __生成连续反馈的api。
+[1.934s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.934s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:35[m[K,
+[1.934s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:29[m[K,
+[1.934s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[1.934s]                  from [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:24[m[K:
+[1.934s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:149:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp_action::ServerGoalHandle<ActionT>::publish_feedback(std::shared_ptr<typename ActionT::Feedback>) [with ActionT = base_interfaces_demo::action::Progress; typename ActionT::Feedback = base_interfaces_demo::action::Progress_Feedback_<std::allocator<void> >][m[K’
+[1.934s]   149 |   [01;36m[Kpublish_feedback[m[K(std::shared_ptr<typename ActionT::Feedback> feedback_msg)
+[1.934s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.934s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:149:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.940s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:103:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knum[m[K’ was not declared in this scope; did you mean ‘[01m[Ksum[m[K’?
+[1.940s]   103 |         for (int i = 1; i <= [01;31m[Knum[m[K; i++) {
+[1.941s]       |                              [01;31m[K^~~[m[K
+[1.941s]       |                              [32m[Ksum[m[K
+[2.517s] gmake[2]: *** [CMakeFiles/demo01_action_server.dir/build.make:76: CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o] Error 1
+[2.517s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo01_action_server.dir/all] Error 2
+[2.517s] gmake: *** [Makefile:146: all] Error 2
+[2.519s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp03_action' returned '2': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp03_action -- -j12 -l12
