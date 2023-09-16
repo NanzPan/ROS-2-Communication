@@ -1,0 +1,2 @@
+Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp06_time -- -j12 -l12
+Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp06_time -- -j12 -l12

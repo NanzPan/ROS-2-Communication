@@ -1,0 +1,55 @@
+[0.012s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01': AMENT_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01 -- -j12 -l12
+[0.027s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.128s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.147s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.148s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.153s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.210s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.211s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.291s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.400s] -- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.461s] -- Found base_interfaces_demo: 0.0.0 (/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.495s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.523s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.558s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.607s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.607s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/include>
+[0.607s] -- Configured cppcheck exclude dirs and/or files: 
+[0.607s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.607s] -- Added test 'lint_cmake' to check CMake code style
+[0.607s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.608s] -- Added test 'uncrustify' to check C / C++ code style
+[0.608s] -- Configured uncrustify additional arguments: 
+[0.608s] -- Added test 'xmllint' to check XML markup files
+[0.609s] -- Configuring done
+[0.617s] -- Generating done
+[0.618s] -- Build files have been written to: /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01
+[0.638s] [35m[1mConsolidate compiler generated dependencies of target exer01_pub_sub[0m
+[0.651s] [ 50%] [32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o[0m
+[6.429s] [100%] [32m[1mLinking CXX executable exer01_pub_sub[0m
+[6.754s] [100%] Built target exer01_pub_sub
+[6.762s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01' returned '0': AMENT_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01 -- -j12 -l12
+[6.784s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01': AMENT_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01
+[6.788s] -- Install configuration: ""
+[6.788s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer01_pub_sub
+[6.791s] -- Set runtime path of "/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer01_pub_sub" to ""
+[6.791s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch
+[6.791s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer01_pub_sub_launch.py
+[6.791s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise01
+[6.791s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise01
+[6.791s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/ament_prefix_path.sh
+[6.792s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/ament_prefix_path.dsv
+[6.792s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/path.sh
+[6.792s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/path.dsv
+[6.792s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.bash
+[6.792s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.sh
+[6.792s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.zsh
+[6.792s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.dsv
+[6.792s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/package.dsv
+[6.792s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/packages/cpp07_exercise01
+[6.792s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/cmake/cpp07_exercise01Config.cmake
+[6.792s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/cmake/cpp07_exercise01Config-version.cmake
+[6.792s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/package.xml
+[6.794s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01' returned '0': AMENT_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01

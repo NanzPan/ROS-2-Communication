@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01 -- -j12 -l12
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target exer02_server[0m
+[0.056s] [ 50%] Built target exer01_pub_sub
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/exer03_client.dir/src/exer03_client.cpp.o[0m
+[0.060s] [ 66%] [32mBuilding CXX object CMakeFiles/exer02_server.dir/src/exer02_server.cpp.o[0m
+[1.820s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[1.820s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:32:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_x2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.820s]    32 |     float [01;35m[Kgoal_x2[m[K = atof(argv[1]);
+[1.820s]       |           [01;35m[K^~~~~~~[m[K
+[1.820s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:33:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_y2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.821s]    33 |     float [01;35m[Kgoal_y2[m[K = atof(argv[2]);
+[1.821s]       |           [01;35m[K^~~~~~~[m[K
+[1.821s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:34:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_theta2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.821s]    34 |     float [01;35m[Kgoal_theta2[m[K = atof(argv[3]);
+[1.821s]       |           [01;35m[K^~~~~~~~~~~[m[K
+[2.278s] [ 83%] [32m[1mLinking CXX executable exer03_client[0m
+[2.376s] [ 83%] Built target exer03_client
+[6.837s] [100%] [32m[1mLinking CXX executable exer02_server[0m
+[7.161s] [100%] Built target exer02_server
+[7.170s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01' returned '0': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01 -- -j12 -l12
+[7.198s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01
+[7.203s] -- Install configuration: ""
+[7.203s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer01_pub_sub
+[7.203s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer02_server
+[7.207s] -- Set runtime path of "/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer02_server" to ""
+[7.207s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer03_client
+[7.207s] -- Set runtime path of "/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer03_client" to ""
+[7.207s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch
+[7.207s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer01_pub_sub_launch.py
+[7.207s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer03_client_launch.py
+[7.207s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer02_server_launch.py
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise01
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise01
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/ament_prefix_path.sh
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/ament_prefix_path.dsv
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/path.sh
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/path.dsv
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.bash
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.sh
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.zsh
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.dsv
+[7.208s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/package.dsv
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/packages/cpp07_exercise01
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/cmake/cpp07_exercise01Config.cmake
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/cmake/cpp07_exercise01Config-version.cmake
+[7.208s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/package.xml
+[7.210s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01' returned '0': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01

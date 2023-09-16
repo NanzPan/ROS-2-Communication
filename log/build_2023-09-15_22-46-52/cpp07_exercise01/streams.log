@@ -1,0 +1,104 @@
+[0.012s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01 -- -j12 -l12
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target exer03_client[0m
+[0.051s] [ 66%] Built target exer02_server
+[0.051s] [ 66%] Built target exer01_pub_sub
+[0.054s] [ 83%] [32mBuilding CXX object CMakeFiles/exer03_client.dir/src/exer03_client.cpp.o[0m
+[1.682s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.683s]                  from [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:14[m[K:
+[1.683s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[1.683s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:35:50:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.683s]    35 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"),[01;35m[K"x : %.2f ,y : %.2f, theta : %.2f"[m[K);
+[1.683s]       |                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.683s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:35:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.683s]    35 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"),"x : [01;36m[K%.2f[m[K ,y : %.2f, theta : %.2f");
+[1.683s]       |                                                       [01;36m[K~~~^[m[K
+[1.684s]       |                                                          [01;36m[K|[m[K
+[1.684s]       |                                                          [01;36m[Kdouble[m[K
+[1.684s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.684s]                  from [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:14[m[K:
+[1.684s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:35:50:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.684s]    35 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"),[01;35m[K"x : %.2f ,y : %.2f, theta : %.2f"[m[K);
+[1.684s]       |                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.684s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:35:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.684s]    35 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"),"x : %.2f ,y : [01;36m[K%.2f[m[K, theta : %.2f");
+[1.684s]       |                                                                 [01;36m[K~~~^[m[K
+[1.684s]       |                                                                    [01;36m[K|[m[K
+[1.684s]       |                                                                    [01;36m[Kdouble[m[K
+[1.684s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.685s]                  from [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:14[m[K:
+[1.685s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:35:50:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.685s]    35 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"),[01;35m[K"x : %.2f ,y : %.2f, theta : %.2f"[m[K);
+[1.685s]       |                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.685s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:35:82:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.685s]    35 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"),"x : %.2f ,y : %.2f, theta : [01;36m[K%.2f[m[K");
+[1.685s]       |                                                                               [01;36m[K~~~^[m[K
+[1.685s]       |                                                                                  [01;36m[K|[m[K
+[1.685s]       |                                                                                  [01;36m[Kdouble[m[K
+[1.685s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:32:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_x2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.685s]    32 |     float [01;35m[Kgoal_x2[m[K = atof(argv[1]);
+[1.685s]       |           [01;35m[K^~~~~~~[m[K
+[1.685s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:33:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_y2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.685s]    33 |     float [01;35m[Kgoal_y2[m[K = atof(argv[2]);
+[1.685s]       |           [01;35m[K^~~~~~~[m[K
+[1.685s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer03_client.cpp:34:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_theta2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.685s]    34 |     float [01;35m[Kgoal_theta2[m[K = atof(argv[3]);
+[1.685s]       |           [01;35m[K^~~~~~~~~~~[m[K
+[2.097s] [100%] [32m[1mLinking CXX executable exer03_client[0m
+[2.184s] [100%] Built target exer03_client
+[2.193s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01' returned '0': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01 -- -j12 -l12
+[2.221s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01
+[2.227s] -- Install configuration: ""
+[2.227s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer01_pub_sub
+[2.227s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer02_server
+[2.227s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer03_client
+[2.228s] -- Set runtime path of "/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer03_client" to ""
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer01_pub_sub_launch.py
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer03_client_launch.py
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer02_server_launch.py
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise01
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise01
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/ament_prefix_path.sh
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/ament_prefix_path.dsv
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/path.sh
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/path.dsv
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.bash
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.sh
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.zsh
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.dsv
+[2.228s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/package.dsv
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/packages/cpp07_exercise01
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/cmake/cpp07_exercise01Config.cmake
+[2.228s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/cmake/cpp07_exercise01Config-version.cmake
+[2.229s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/package.xml
+[2.230s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01' returned '0': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01

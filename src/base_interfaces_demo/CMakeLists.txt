@@ -16,6 +16,8 @@ rosidl_generate_interfaces( ${PROJECT_NAME}
     "msg/Student.msg"
     "srv/Addint.srv"
     "action/Progress.action"
+    "srv/Distance.srv"
+    "action/Nav.action"
 )
 
 if(BUILD_TESTING)

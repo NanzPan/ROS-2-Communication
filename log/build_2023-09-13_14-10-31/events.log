@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000320] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000435] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000485] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000506] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000626] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000642] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.000652] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.000662] (-) JobUnselected: {'identifier': 'cpp07_exec1'}
+[0.000671] (-) JobUnselected: {'identifier': 'myfirst_matepkg'}
+[0.000682] (-) EventReactorShutdown: {}

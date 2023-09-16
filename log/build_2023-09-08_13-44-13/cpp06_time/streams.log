@@ -1,0 +1,68 @@
+[0.008s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pz10on/Work/ws01_plumbing/src/cpp06_time -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws01_plumbing/install/cpp06_time
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.152s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.212s] -- Detecting CXX compiler ABI info - done
+[0.216s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.217s] -- Detecting CXX compile features
+[0.217s] -- Detecting CXX compile features - done
+[0.219s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.340s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.408s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.444s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.448s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.455s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.541s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.614s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.633s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.673s] -- Looking for pthread.h
+[0.722s] -- Looking for pthread.h - found
+[0.723s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.773s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.773s] -- Found Threads: TRUE  
+[0.894s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.958s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.958s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pz10on/Work/ws01_plumbing/src/cpp06_time/include>
+[0.958s] -- Configured cppcheck exclude dirs and/or files: 
+[0.958s] -- Added test 'lint_cmake' to check CMake code style
+[0.959s] -- Added test 'uncrustify' to check C / C++ code style
+[0.959s] -- Configured uncrustify additional arguments: 
+[0.960s] -- Added test 'xmllint' to check XML markup files
+[0.961s] -- Configuring done
+[0.967s] -- Generating done
+[0.969s] -- Build files have been written to: /home/pz10on/Work/ws01_plumbing/build/cpp06_time
+[0.982s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pz10on/Work/ws01_plumbing/src/cpp06_time -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws01_plumbing/install/cpp06_time
+[0.984s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp06_time -- -j12 -l12
+[1.024s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[3.213s] [100%] [32m[1mLinking CXX executable demo01_time[0m
+[3.292s] [100%] Built target demo01_time
+[3.301s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp06_time -- -j12 -l12
+[3.324s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws01_plumbing/build/cpp06_time
+[3.329s] -- Install configuration: ""
+[3.330s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time
+[3.330s] -- Set runtime path of "/home/pz10on/Work/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time" to ""
+[3.330s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+[3.330s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+[3.330s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+[3.330s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+[3.330s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.sh
+[3.330s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.dsv
+[3.330s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.bash
+[3.330s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.sh
+[3.330s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.zsh
+[3.331s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.dsv
+[3.331s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.dsv
+[3.331s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+[3.331s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+[3.331s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+[3.331s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.xml
+[3.333s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws01_plumbing/build/cpp06_time

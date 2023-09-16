@@ -1,0 +1,72 @@
+[0.013s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01 -- -j12 -l12
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o[0m
+[1.640s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:58:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[1.640s]    58 |     rclcpp::Subscription<[01;31m[Kturtlesim[m[K::msg::Pose>::SharedPtr sub_;
+[1.640s]       |                          [01;31m[K^~~~~~~~~[m[K
+[1.640s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:58:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.640s]    58 |     rclcpp::Subscription<turtlesim::msg::Pose[01;31m[K>[m[K::SharedPtr sub_;
+[1.640s]       |                                              [01;31m[K^[m[K
+[1.640s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:58:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.640s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:58:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.640s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:58:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.640s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:58:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.640s]    58 |     rclcpp::Subscription<turtlesim::msg::Pose>::[01;31m[KSharedPtr[m[K sub_;
+[1.640s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[1.640s]       |                                                          [32m[K;[m[K
+[1.640s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:58:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ does not name a type
+[1.640s]    58 |     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr [01;31m[Ksub_[m[K;
+[1.641s]       |                                                           [01;31m[K^~~~[m[K
+[1.642s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:59:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ does not name a type
+[1.642s]    59 |     void sub_cb(const [01;31m[Kturtlesim[m[K::msg::Pose &pose) {
+[1.642s]       |                       [01;31m[K^~~~~~~~~[m[K
+[1.642s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:59:37:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.642s]    59 |     void sub_cb(const turtlesim::msg[01;31m[K::[m[KPose &pose) {
+[1.642s]       |                                     [01;31m[K^~[m[K
+[1.642s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:59:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.642s]    59 |     void sub_cb[34m[K([m[Kconst turtlesim::msg[01;31m[K:[m[K[32m[K:[m[KPose &pose) {
+[1.642s]       |                [34m[K~[m[K                    [01;31m[K^[m[K[32m[K~[m[K
+[1.642s]       |                                     [32m[K)[m[K
+[1.642s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:59:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.642s]    59 |     void sub_cb(const turtlesim::[01;31m[Kmsg[m[K::Pose &pose) {
+[1.642s]       |                                  [01;31m[K^~~[m[K
+[1.642s]       |                                     [32m[K;[m[K
+[1.643s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:59:39:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[1.643s]    59 |     void sub_cb(const turtlesim::msg::[01;31m[KPose[m[K &pose) {
+[1.643s]       |                                       [01;31m[K^~~~[m[K
+[1.649s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:[m[K In constructor ‘[01m[KExer01PubSub::Exer01PubSub()[m[K’:
+[1.649s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_[m[K’?
+[1.649s]    51 |         [01;31m[Ksub_[m[K = this->create_subscription<turtlesim::msg::Pose>(
+[1.649s]       |         [01;31m[K^~~~[m[K
+[1.649s]       |         [32m[Kpub_[m[K
+[1.653s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:51:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[1.653s]    51 |         sub_ = this->create_subscription<[01;31m[Kturtlesim[m[K::msg::Pose>(
+[1.653s]       |                                          [01;31m[K^~~~~~~~~[m[K
+[1.653s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:51:22:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.653s]    51 |         sub_ = this->[01;31m[Kcreate_subscription<turtlesim::msg::Pose>[m[K(
+[1.653s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.657s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:51:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KExer01PubSub::create_subscription<<expression error> >(const char [14], int, std::_Bind_helper<false, void (Exer01PubSub::*)(...), Exer01PubSub*, const std::_Placeholder<1>&>::type)[m[K’
+[1.657s]    51 |         sub_ = [01;31m[Kthis->create_subscription<turtlesim::msg::Pose>([m[K
+[1.657s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.657s]    52 | [01;31m[K            "/turtle1/pose", 10,[m[K
+[1.657s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                               
+[1.657s]    53 | [01;31m[K            std::bind(&Exer01PubSub::sub_cb, this, std::placeholders::_1))[m[K;
+[1.657s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.657s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.657s]                  from [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:39[m[K:
+[1.657s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[1.657s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[1.657s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.657s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.657s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:51:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.657s]    51 |         sub_ = [01;31m[Kthis->create_subscription<turtlesim::msg::Pose>([m[K
+[1.657s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.657s]    52 | [01;31m[K            "/turtle1/pose", 10,[m[K
+[1.657s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                               
+[1.657s]    53 | [01;31m[K            std::bind(&Exer01PubSub::sub_cb, this, std::placeholders::_1))[m[K;
+[1.657s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.156s] gmake[2]: *** [CMakeFiles/exer01_pub_sub.dir/build.make:76: CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o] Error 1
+[2.156s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/exer01_pub_sub.dir/all] Error 2
+[2.157s] gmake: *** [Makefile:146: all] Error 2
+[2.159s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01' returned '2': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01 -- -j12 -l12

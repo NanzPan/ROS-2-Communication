@@ -71,6 +71,10 @@ CMakeFiles/base_interfaces_demo: /home/pz10on/Work/ws01_plumbing/src/base_interf
 CMakeFiles/base_interfaces_demo: rosidl_cmake/srv/Addint_Request.msg
 CMakeFiles/base_interfaces_demo: rosidl_cmake/srv/Addint_Response.msg
 CMakeFiles/base_interfaces_demo: /home/pz10on/Work/ws01_plumbing/src/base_interfaces_demo/action/Progress.action
+CMakeFiles/base_interfaces_demo: /home/pz10on/Work/ws01_plumbing/src/base_interfaces_demo/srv/Distance.srv
+CMakeFiles/base_interfaces_demo: rosidl_cmake/srv/Distance_Request.msg
+CMakeFiles/base_interfaces_demo: rosidl_cmake/srv/Distance_Response.msg
+CMakeFiles/base_interfaces_demo: /home/pz10on/Work/ws01_plumbing/src/base_interfaces_demo/action/Nav.action
 CMakeFiles/base_interfaces_demo: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/base_interfaces_demo: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/base_interfaces_demo: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl

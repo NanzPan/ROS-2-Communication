@@ -1,0 +1,5 @@
+[0.019s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp06_time -- -j12 -l12
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target demo01_time[0m
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[2.387s] [100%] [32m[1mLinking CXX executable demo01_time[0m
+[2.480s] [100%] Built target demo01_time

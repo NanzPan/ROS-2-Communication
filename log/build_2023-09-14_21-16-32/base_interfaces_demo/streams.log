@@ -1,0 +1,48 @@
+[0.011s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/base_interfaces_demo -- -j12 -l12
+[0.027s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.119s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.122s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.278s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.279s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.279s]   base_interfaces_demo --arguments-file
+[0.279s]   /home/pz10on/Work/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter__arguments__base_interfaces_demo.json
+[0.279s]   --output-dir
+[0.279s]   /home/pz10on/Work/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo
+[0.279s]   --output-file
+[0.279s]   /home/pz10on/Work/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo.idls)
+[0.279s]   returned error code 1:
+[0.279s] 
+[0.279s]   Traceback (most recent call last):
+[0.279s] 
+[0.279s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.279s]       return _run_code(code, main_globals, None,
+[0.279s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.279s]       exec(code, run_globals)
+[0.279s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.279s]       sys.exit(main())
+[0.279s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.279s]       abs_idl_file = convert_to_idl(
+[0.279s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.279s]       return convert_srv_to_idl(
+[0.280s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.280s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.280s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.280s]       request_message = parse_message_string(
+[0.280s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.280s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.280s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 403, in __init__
+[0.280s]       raise ValueError(
+[0.280s] 
+[0.280s]   ValueError: the fields iterable contains duplicate names: x
+[0.280s] 
+[0.280s] Call Stack (most recent call first):
+[0.280s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.280s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.280s] 
+[0.280s] [0m
+[0.280s] -- Configuring incomplete, errors occurred!
+[0.280s] See also "/home/pz10on/Work/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/CMakeOutput.log".
+[0.283s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.284s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/base_interfaces_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/base_interfaces_demo -- -j12 -l12

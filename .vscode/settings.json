@@ -76,4 +76,15 @@
         "typeinfo": "cpp",
         "variant": "cpp"
     },
+    "python.autoComplete.extraPaths": [
+        "/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/home/pz10on/Work/ws01_plumbing/build/base_interfaces_demo__py",
 }

@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01 -- -j12 -l12
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o[0m
+[0.181s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp07_exercise01/src/exer01_pub_sub.cpp:40:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: No such file or directory
+[0.182s]    40 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
+[0.182s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.182s] compilation terminated.
+[0.190s] gmake[2]: *** [CMakeFiles/exer01_pub_sub.dir/build.make:76: CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o] Error 1
+[0.191s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/exer01_pub_sub.dir/all] Error 2
+[0.191s] gmake: *** [Makefile:146: all] Error 2
+[0.193s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01' returned '2': CMAKE_PREFIX_PATH=/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01 -- -j12 -l12

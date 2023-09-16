@@ -1,0 +1,17 @@
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/lib/cpp07_exercise01/exer01_pub_sub
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer01_pub_sub_launch.py
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise01
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise01
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/environment/ament_prefix_path.sh
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/environment/ament_prefix_path.dsv
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/environment/path.sh
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/environment/path.dsv
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.bash
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.sh
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.zsh
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.dsv
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/package.dsv
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/ament_index/resource_index/packages/cpp07_exercise01
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/cmake/cpp07_exercise01Config.cmake
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/cmake/cpp07_exercise01Config-version.cmake
+/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exercise01/share/cpp07_exercise01/package.xml

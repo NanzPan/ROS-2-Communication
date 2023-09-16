@@ -30,9 +30,9 @@ class listener : public rclcpp::Node {
     }
 
    private:
-    void do_cb(const std_msgs::msg::String &msg) {
+    void do_cb(const std_msgs::msg::String &msg1) {
         // 3-2.处理订阅到的消息.
-        RCLCPP_INFO(this->get_logger(), "订阅到的消息是：%s", msg.data.c_str());
+        RCLCPP_INFO(this->get_logger(), "订阅到的消息是：%s", msg1.data.c_str());
     }
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
 };

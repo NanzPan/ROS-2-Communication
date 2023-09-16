@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000136] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000147] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000157] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000168] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000471] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.000528] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.000538] (-) JobUnselected: {'identifier': 'myfirst_matepkg'}
+[0.000550] (cpp07_exer01) JobQueued: {'identifier': 'cpp07_exer01', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/pz10on/Work/ws01_plumbing/src/install/base_interfaces_demo')])}
+[0.000567] (cpp07_exer01) JobStarted: {'identifier': 'cpp07_exer01'}
+[0.008184] (cpp07_exer01) JobProgress: {'identifier': 'cpp07_exer01', 'progress': 'cmake'}
+[0.008295] (cpp07_exer01) Command: {'cmd': ['/usr/bin/cmake', '/home/pz10on/Work/ws01_plumbing/src/cpp07_exer01', '-DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exer01'], 'cwd': '/home/pz10on/Work/ws01_plumbing/src/build/cpp07_exer01', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pz10on'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pz10on'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/pz10on/Work/ws01_plumbing'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1674'), ('SYSTEMD_EXEC_PID', '2174'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '33639'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pz10on/Work/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pz10on'), ('JOURNAL_STREAM', '8:25556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pz10on'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pz10on-laptop:@/tmp/.ICE-unix/2145,unix/pz10on-laptop:/tmp/.ICE-unix/2145'), ('INVOCATION_ID', '37f71dde78bf40a19023952285beb85b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bac2f423d9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exec1:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pz10on/Work/ws01_plumbing/src/build/cpp07_exer01'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg:/home/pz10on/Work/ws01_plumbing/install/cpp07_exec1:/home/pz10on/Work/ws01_plumbing/install/cpp06_time:/home/pz10on/Work/ws01_plumbing/install/cpp05_names:/home/pz10on/Work/ws01_plumbing/install/cpp04_param:/home/pz10on/Work/ws01_plumbing/install/cpp03_action:/home/pz10on/Work/ws01_plumbing/install/cpp02_service:/home/pz10on/Work/ws01_plumbing/install/cpp01_topic:/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[0.045836] (cpp07_exer01) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.081044] (cpp07_exer01) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.085805] (cpp07_exer01) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099178] (-) TimerEvent: {}
+[0.133108] (cpp07_exer01) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.137695] (cpp07_exer01) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.137818] (cpp07_exer01) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.138071] (cpp07_exer01) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.140199] (cpp07_exer01) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.191050] (cpp07_exer01) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.195821] (cpp07_exer01) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.196062] (cpp07_exer01) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.196246] (cpp07_exer01) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.198028] (cpp07_exer01) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199262] (-) TimerEvent: {}
+[0.299452] (-) TimerEvent: {}
+[0.316298] (cpp07_exer01) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.374604] (cpp07_exer01) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399557] (-) TimerEvent: {}
+[0.402888] (cpp07_exer01) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.406573] (cpp07_exer01) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.412842] (cpp07_exer01) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.422283] (cpp07_exer01) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.435095] (cpp07_exer01) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.480894] (cpp07_exer01) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.482624] (cpp07_exer01) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499657] (-) TimerEvent: {}
+[0.546946] (cpp07_exer01) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.563540] (cpp07_exer01) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.593038] (cpp07_exer01) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.599492] (cpp07_exer01) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.599710] (-) TimerEvent: {}
+[0.647149] (cpp07_exer01) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.647533] (cpp07_exer01) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.695568] (cpp07_exer01) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.696351] (cpp07_exer01) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.699794] (-) TimerEvent: {}
+[0.800022] (-) TimerEvent: {}
+[0.827451] (cpp07_exer01) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.900155] (-) TimerEvent: {}
+[0.921438] (cpp07_exer01) StdoutLine: {'line': b'-- Found base_interfaces_demo: 0.0.0 (/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)\n'}
+[0.954915] (cpp07_exer01) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.987825] (cpp07_exer01) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[0.987988] (cpp07_exer01) StderrLine: {'line': b'  By not providing "Findrclcpp_aciton.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.988033] (cpp07_exer01) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.988072] (cpp07_exer01) StderrLine: {'line': b'  "rclcpp_aciton", but CMake did not find one.\n'}
+[0.988110] (cpp07_exer01) StderrLine: {'line': b'\n'}
+[0.988146] (cpp07_exer01) StderrLine: {'line': b'  Could not find a package configuration file provided by "rclcpp_aciton"\n'}
+[0.988186] (cpp07_exer01) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.988222] (cpp07_exer01) StderrLine: {'line': b'\n'}
+[0.988259] (cpp07_exer01) StderrLine: {'line': b'    rclcpp_acitonConfig.cmake\n'}
+[0.988296] (cpp07_exer01) StderrLine: {'line': b'    rclcpp_aciton-config.cmake\n'}
+[0.988331] (cpp07_exer01) StderrLine: {'line': b'\n'}
+[0.988367] (cpp07_exer01) StderrLine: {'line': b'  Add the installation prefix of "rclcpp_aciton" to CMAKE_PREFIX_PATH or set\n'}
+[0.988405] (cpp07_exer01) StderrLine: {'line': b'  "rclcpp_aciton_DIR" to a directory containing one of the above files.  If\n'}
+[0.988441] (cpp07_exer01) StderrLine: {'line': b'  "rclcpp_aciton" provides a separate development package or SDK, be sure it\n'}
+[0.988477] (cpp07_exer01) StderrLine: {'line': b'  has been installed.\n'}
+[0.988512] (cpp07_exer01) StderrLine: {'line': b'\n'}
+[0.988546] (cpp07_exer01) StderrLine: {'line': b'\x1b[0m\n'}
+[0.988582] (cpp07_exer01) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.988623] (cpp07_exer01) StdoutLine: {'line': b'See also "/home/pz10on/Work/ws01_plumbing/src/build/cpp07_exer01/CMakeFiles/CMakeOutput.log".\n'}
+[0.994310] (cpp07_exer01) CommandEnded: {'returncode': 1}
+[1.000293] (-) TimerEvent: {}
+[1.009751] (cpp07_exer01) JobEnded: {'identifier': 'cpp07_exer01', 'rc': 1}
+[1.020257] (-) EventReactorShutdown: {}

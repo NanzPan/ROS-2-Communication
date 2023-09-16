@@ -1,0 +1,4 @@
+source;share/myfirst_matepkg/local_setup.bash
+source;share/myfirst_matepkg/local_setup.dsv
+source;share/myfirst_matepkg/local_setup.sh
+source;share/myfirst_matepkg/local_setup.zsh

@@ -1,0 +1,10 @@
+/home/pz10on/Work/ws01_plumbing/build/cpp06_time/CMakeFiles/uninstall.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp06_time/CMakeFiles/cpp06_time_uninstall.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp06_time/CMakeFiles/demo01_time.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp06_time/CMakeFiles/test.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp06_time/CMakeFiles/edit_cache.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp06_time/CMakeFiles/rebuild_cache.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp06_time/CMakeFiles/list_install_components.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp06_time/CMakeFiles/install.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp06_time/CMakeFiles/install/local.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp06_time/CMakeFiles/install/strip.dir

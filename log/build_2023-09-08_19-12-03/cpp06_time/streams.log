@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp06_time -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target demo01_time[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[1.659s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.659s]                  from [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp06_time/src/demo01_time.cpp:11[m[K:
+[1.659s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp06_time/src/demo01_time.cpp:[m[K In member function ‘[01m[Kvoid MyNode::demo_opt()[m[K’:
+[1.660s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp06_time/src/demo01_time.cpp:77:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kt1[m[K’ was not declared in this scope; did you mean ‘[01m[Ky1[m[K’?
+[1.660s]    77 |         RCLCPP_INFO(this->get_logger(), "t1 >= t2",[01;31m[Kt1[m[K >= t2);
+[1.660s]       |                                                    [01;31m[K^~[m[K
+[1.662s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp06_time/src/demo01_time.cpp:77:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kt2[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[1.662s]    77 |         RCLCPP_INFO(this->get_logger(), "t1 >= t2",t1 >= [01;31m[Kt2[m[K);
+[1.662s]       |                                                          [01;31m[K^~[m[K
+[1.665s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp06_time/src/demo01_time.cpp:78:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kt1[m[K’ was not declared in this scope; did you mean ‘[01m[Ky1[m[K’?
+[1.665s]    78 |         RCLCPP_INFO(this->get_logger(), "t1 < t2",[01;31m[Kt1[m[K > t2);
+[1.665s]       |                                                   [01;31m[K^~[m[K
+[1.668s] [01m[K/home/pz10on/Work/ws01_plumbing/src/cpp06_time/src/demo01_time.cpp:78:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kt2[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[1.668s]    78 |         RCLCPP_INFO(this->get_logger(), "t1 < t2",t1 > [01;31m[Kt2[m[K);
+[1.668s]       |                                                        [01;31m[K^~[m[K
+[1.993s] gmake[2]: *** [CMakeFiles/demo01_time.dir/build.make:76: CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o] Error 1
+[1.993s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_time.dir/all] Error 2
+[1.993s] gmake: *** [Makefile:146: all] Error 2
+[1.995s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp06_time -- -j12 -l12

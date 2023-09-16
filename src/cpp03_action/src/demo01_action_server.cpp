@@ -148,10 +148,10 @@ class ProgressActionServer : public rclcpp::Node {
     }
     void handle_accept(
         std::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>>
-            goal_handle2) {
+            goal_handle3) {
         // 新建线程处理耗时的主逻辑实现；
         std::thread(
-            std::bind(&ProgressActionServer::execute, this, goal_handle2))
+            std::bind(&ProgressActionServer::execute, this, goal_handle3))
             .detach();
     }
 

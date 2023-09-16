@@ -1,0 +1,10 @@
+/home/pz10on/Work/ws01_plumbing/build/cpp07_exec1/CMakeFiles/uninstall.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp07_exec1/CMakeFiles/cpp07_exec1_uninstall.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp07_exec1/CMakeFiles/exec1_pub_sub.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp07_exec1/CMakeFiles/test.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp07_exec1/CMakeFiles/edit_cache.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp07_exec1/CMakeFiles/rebuild_cache.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp07_exec1/CMakeFiles/list_install_components.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp07_exec1/CMakeFiles/install.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp07_exec1/CMakeFiles/install/local.dir
+/home/pz10on/Work/ws01_plumbing/build/cpp07_exec1/CMakeFiles/install/strip.dir

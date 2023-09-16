@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_time[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp06_time/src/demo01_time.cpp:[m[K In member function ‘[01m[Kvoid MyNode::demo_duration()[m[K’:
+[01m[K/home/pz10on/Work/ws01_plumbing/src/cpp06_time/src/demo01_time.cpp:68:20:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   68 |     void demo_opt()[01;31m[K{[m[K
+      |                    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo01_time.dir/build.make:76: CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_time.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

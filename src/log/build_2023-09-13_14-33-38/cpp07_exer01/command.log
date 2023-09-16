@@ -1,0 +1,2 @@
+Invoking command in '/home/pz10on/Work/ws01_plumbing/src/build/cpp07_exer01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pz10on/Work/ws01_plumbing/src/cpp07_exer01 -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exer01
+Invoked command in '/home/pz10on/Work/ws01_plumbing/src/build/cpp07_exer01' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pz10on/Work/ws01_plumbing/src/cpp07_exer01 -DCMAKE_INSTALL_PREFIX=/home/pz10on/Work/ws01_plumbing/src/install/cpp07_exer01

@@ -1,0 +1,9 @@
+/home/pz10on/Work/ws01_plumbing/build/myfirst_matepkg/CMakeFiles/uninstall.dir
+/home/pz10on/Work/ws01_plumbing/build/myfirst_matepkg/CMakeFiles/myfirst_matepkg_uninstall.dir
+/home/pz10on/Work/ws01_plumbing/build/myfirst_matepkg/CMakeFiles/test.dir
+/home/pz10on/Work/ws01_plumbing/build/myfirst_matepkg/CMakeFiles/edit_cache.dir
+/home/pz10on/Work/ws01_plumbing/build/myfirst_matepkg/CMakeFiles/rebuild_cache.dir
+/home/pz10on/Work/ws01_plumbing/build/myfirst_matepkg/CMakeFiles/list_install_components.dir
+/home/pz10on/Work/ws01_plumbing/build/myfirst_matepkg/CMakeFiles/install.dir
+/home/pz10on/Work/ws01_plumbing/build/myfirst_matepkg/CMakeFiles/install/local.dir
+/home/pz10on/Work/ws01_plumbing/build/myfirst_matepkg/CMakeFiles/install/strip.dir

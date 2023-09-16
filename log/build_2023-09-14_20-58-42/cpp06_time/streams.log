@@ -1,0 +1,24 @@
+[0.016s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp06_time -- -j12 -l12
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target demo01_time[0m
+[0.065s] [100%] Built target demo01_time
+[0.074s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pz10on/Work/ws01_plumbing/build/cpp06_time -- -j12 -l12
+[0.094s] Invoking command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws01_plumbing/build/cpp06_time
+[0.102s] -- Install configuration: ""
+[0.102s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time
+[0.102s] -- Set runtime path of "/home/pz10on/Work/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time" to ""
+[0.102s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+[0.102s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+[0.103s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+[0.103s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+[0.103s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.sh
+[0.103s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.dsv
+[0.103s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.bash
+[0.103s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.sh
+[0.103s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.zsh
+[0.103s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.dsv
+[0.103s] -- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.dsv
+[0.104s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+[0.105s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+[0.105s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+[0.105s] -- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.xml
+[0.122s] Invoked command in '/home/pz10on/Work/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pz10on/Work/ws01_plumbing/build/cpp06_time

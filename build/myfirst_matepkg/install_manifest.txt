@@ -1,0 +1,15 @@
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/ament_index/resource_index/package_run_dependencies/myfirst_matepkg
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/ament_index/resource_index/parent_prefix_path/myfirst_matepkg
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/environment/ament_prefix_path.sh
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/environment/ament_prefix_path.dsv
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/environment/path.sh
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/environment/path.dsv
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/local_setup.bash
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/local_setup.sh
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/local_setup.zsh
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/local_setup.dsv
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/package.dsv
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/ament_index/resource_index/packages/myfirst_matepkg
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/cmake/myfirst_matepkgConfig.cmake
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/cmake/myfirst_matepkgConfig-version.cmake
+/home/pz10on/Work/ws01_plumbing/install/myfirst_matepkg/share/myfirst_matepkg/package.xml
