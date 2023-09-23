@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000344] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000365] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000378] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000388] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000397] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000595] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.000612] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.000650] (-) JobUnselected: {'identifier': 'myfirst_matepkg'}
+[0.000676] (cpp07_exercise01) JobQueued: {'identifier': 'cpp07_exercise01', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo')])}
+[0.000790] (cpp07_exercise01) JobStarted: {'identifier': 'cpp07_exercise01'}
+[0.015137] (cpp07_exercise01) JobProgress: {'identifier': 'cpp07_exercise01', 'progress': 'cmake'}
+[0.015525] (cpp07_exercise01) JobProgress: {'identifier': 'cpp07_exercise01', 'progress': 'build'}
+[0.015954] (cpp07_exercise01) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01', '--', '-j12', '-l12'], 'cwd': '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pz10on'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pz10on'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1723'), ('SYSTEMD_EXEC_PID', '2205'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4440'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pz10on'), ('JOURNAL_STREAM', '8:33333'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pz10on'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pz10on-laptop:@/tmp/.ICE-unix/2186,unix/pz10on-laptop:/tmp/.ICE-unix/2186'), ('INVOCATION_ID', 'e17216c19e3d4a41bf6cf251c43ceb49'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bac2f423d9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[0.055435] (cpp07_exercise01) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer04_action_server\x1b[0m\n'}
+[0.055651] (cpp07_exercise01) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer05_action_client\x1b[0m\n'}
+[0.055700] (cpp07_exercise01) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer03_client\x1b[0m\n'}
+[0.055742] (cpp07_exercise01) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer02_server\x1b[0m\n'}
+[0.064641] (cpp07_exercise01) StdoutLine: {'line': b'[ 20%] Built target exer01_pub_sub\n'}
+[0.068005] (cpp07_exercise01) StdoutLine: {'line': b'[ 70%] Built target exer02_server\n'}
+[0.068207] (cpp07_exercise01) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o\x1b[0m\n'}
+[0.068304] (cpp07_exercise01) StdoutLine: {'line': b'[ 70%] Built target exer03_client\n'}
+[0.068367] (cpp07_exercise01) StdoutLine: {'line': b'[ 90%] Built target exer05_action_client\n'}
+[0.099262] (-) TimerEvent: {}
+[0.199524] (-) TimerEvent: {}
+[0.299836] (-) TimerEvent: {}
+[0.400122] (-) TimerEvent: {}
+[0.500452] (-) TimerEvent: {}
+[0.600726] (-) TimerEvent: {}
+[0.700995] (-) TimerEvent: {}
+[0.801277] (-) TimerEvent: {}
+[0.901557] (-) TimerEvent: {}
+[1.001841] (-) TimerEvent: {}
+[1.102123] (-) TimerEvent: {}
+[1.202425] (-) TimerEvent: {}
+[1.302714] (-) TimerEvent: {}
+[1.402965] (-) TimerEvent: {}
+[1.503270] (-) TimerEvent: {}
+[1.603553] (-) TimerEvent: {}
+[1.703876] (-) TimerEvent: {}
+[1.804167] (-) TimerEvent: {}
+[1.904424] (-) TimerEvent: {}
+[2.004694] (-) TimerEvent: {}
+[2.104951] (-) TimerEvent: {}
+[2.205325] (-) TimerEvent: {}
+[2.305619] (-) TimerEvent: {}
+[2.405901] (-) TimerEvent: {}
+[2.506215] (-) TimerEvent: {}
+[2.606487] (-) TimerEvent: {}
+[2.706747] (-) TimerEvent: {}
+[2.807139] (-) TimerEvent: {}
+[2.907559] (-) TimerEvent: {}
+[3.007851] (-) TimerEvent: {}
+[3.108113] (-) TimerEvent: {}
+[3.208432] (-) TimerEvent: {}
+[3.308714] (-) TimerEvent: {}
+[3.409031] (-) TimerEvent: {}
+[3.509318] (-) TimerEvent: {}
+[3.609676] (-) TimerEvent: {}
+[3.709966] (-) TimerEvent: {}
+[3.810236] (-) TimerEvent: {}
+[3.910528] (-) TimerEvent: {}
+[4.010861] (-) TimerEvent: {}
+[4.111166] (-) TimerEvent: {}
+[4.211457] (-) TimerEvent: {}
+[4.311727] (-) TimerEvent: {}
+[4.412030] (-) TimerEvent: {}
+[4.512303] (-) TimerEvent: {}
+[4.612538] (-) TimerEvent: {}
+[4.712799] (-) TimerEvent: {}
+[4.813047] (-) TimerEvent: {}
+[4.913307] (-) TimerEvent: {}
+[5.013568] (-) TimerEvent: {}
+[5.113856] (-) TimerEvent: {}
+[5.214123] (-) TimerEvent: {}
+[5.314437] (-) TimerEvent: {}
+[5.414747] (-) TimerEvent: {}
+[5.515010] (-) TimerEvent: {}
+[5.615267] (-) TimerEvent: {}
+[5.715559] (-) TimerEvent: {}
+[5.815822] (-) TimerEvent: {}
+[5.916077] (-) TimerEvent: {}
+[6.016333] (-) TimerEvent: {}
+[6.116636] (-) TimerEvent: {}
+[6.216907] (-) TimerEvent: {}
+[6.317219] (-) TimerEvent: {}
+[6.330654] (cpp07_exercise01) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exer04_action_server\x1b[0m\n'}
+[6.417332] (-) TimerEvent: {}
+[6.517646] (-) TimerEvent: {}
+[6.617942] (-) TimerEvent: {}
+[6.687422] (cpp07_exercise01) StdoutLine: {'line': b'[100%] Built target exer04_action_server\n'}
+[6.695000] (cpp07_exercise01) CommandEnded: {'returncode': 0}
+[6.717031] (cpp07_exercise01) JobProgress: {'identifier': 'cpp07_exercise01', 'progress': 'install'}
+[6.718027] (-) TimerEvent: {}
+[6.723635] (cpp07_exercise01) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01'], 'cwd': '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pz10on'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pz10on'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1723'), ('SYSTEMD_EXEC_PID', '2205'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4440'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pz10on'), ('JOURNAL_STREAM', '8:33333'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pz10on'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pz10on-laptop:@/tmp/.ICE-unix/2186,unix/pz10on-laptop:/tmp/.ICE-unix/2186'), ('INVOCATION_ID', 'e17216c19e3d4a41bf6cf251c43ceb49'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bac2f423d9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pz10on/Work/ws01_plumbing/build/cpp07_exercise01'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pz10on/Work/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[6.730041] (cpp07_exercise01) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.730611] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer01_pub_sub\n'}
+[6.730931] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer02_server\n'}
+[6.731171] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer03_client\n'}
+[6.731378] (cpp07_exercise01) StdoutLine: {'line': b'-- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer04_action_server\n'}
+[6.734803] (cpp07_exercise01) StdoutLine: {'line': b'-- Set runtime path of "/home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer04_action_server" to ""\n'}
+[6.734951] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/lib/cpp07_exercise01/exer05_action_client\n'}
+[6.735013] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch\n'}
+[6.735064] (cpp07_exercise01) StdoutLine: {'line': b'-- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer05_action_client_launch.py\n'}
+[6.735127] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer01_pub_sub_launch.py\n'}
+[6.735191] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer03_client_launch.py\n'}
+[6.735251] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer02_server_launch.py\n'}
+[6.735331] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/launch/exer04_action_server_launch.py\n'}
+[6.735401] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise01\n'}
+[6.735458] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise01\n'}
+[6.735496] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/ament_prefix_path.sh\n'}
+[6.735563] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/ament_prefix_path.dsv\n'}
+[6.735618] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/path.sh\n'}
+[6.735655] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/environment/path.dsv\n'}
+[6.735692] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.bash\n'}
+[6.735728] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.sh\n'}
+[6.735770] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.zsh\n'}
+[6.735808] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/local_setup.dsv\n'}
+[6.735845] (cpp07_exercise01) StdoutLine: {'line': b'-- Installing: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/package.dsv\n'}
+[6.735882] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/ament_index/resource_index/packages/cpp07_exercise01\n'}
+[6.735919] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/cmake/cpp07_exercise01Config.cmake\n'}
+[6.735957] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/cmake/cpp07_exercise01Config-version.cmake\n'}
+[6.735993] (cpp07_exercise01) StdoutLine: {'line': b'-- Up-to-date: /home/pz10on/Work/ws01_plumbing/install/cpp07_exercise01/share/cpp07_exercise01/package.xml\n'}
+[6.736897] (cpp07_exercise01) CommandEnded: {'returncode': 0}
+[6.779221] (cpp07_exercise01) JobEnded: {'identifier': 'cpp07_exercise01', 'rc': 0}
+[6.779666] (-) EventReactorShutdown: {}

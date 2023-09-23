@@ -30,7 +30,7 @@ class Exe03Client : public rclcpp::Node {
                              "强制终止客户端，连接失败！！");
                 return false;
             }
-            RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "正在玩命连接中！");
+            RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "正在玩命连接中！");
         }
         return true;
     }

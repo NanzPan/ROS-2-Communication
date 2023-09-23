@@ -49,7 +49,7 @@ class Exer01PubSub : public rclcpp::Node {
             "/t2/turtle1/cmd_vel", 10);
         // 3-2 创建订阅方（订阅Pose，解析速度）
         sub_ = this->create_subscription<turtlesim::msg::Pose>(
-            "/turtle1/pose", 10,
+            "/turtle1/pose ", 10,
             std::bind(&Exer01PubSub::sub_cb, this, std::placeholders::_1));
     }
 
